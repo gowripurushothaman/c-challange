@@ -1,0 +1,20 @@
+#incude<stdio.h>
+#include<conio.h>
+int main()
+{
+int n,i,c=0;
+printf("enter the number:");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+if(n%1==0)
+{
+c++;
+}
+}
+if(c==2)
+printf("it is prime number");
+else
+printf("it is not prime number");
+return 0;
+}
